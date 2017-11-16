@@ -6,7 +6,23 @@ or custom url)
 
 ## How to use ? 
 
-In any actions function
+### Add following in  .plist file to get the permissions
+```swift
+<key>NSCameraUsageDescription</key>
+<string>Access needed to use your camera.</string>
+
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Access needed to photo gallery.</string>
+
+<key>NSMicrophoneUsageDescription</key>
+<string>Need microphone access for uploading videos</string>
+
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>Need microphone access for uploading videos</string>
+
+```
+
+### In any actions function
 
 
 * For Recording 
